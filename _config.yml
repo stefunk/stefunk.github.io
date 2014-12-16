@@ -1,0 +1,14 @@
+# Site settings
+title: Stefano Grassi
+subtitle: front end developer
+email: your-email@domain.com
+description: > # this means to ignore newlines until "baseurl:"
+  I'm an italian web developer with a secret love for front end technologies.
+  I also like make music and eating pasta.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: stefunk
+github_username:  stefunk
+
+# Build settings
+markdown: kramdown
