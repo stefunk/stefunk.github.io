@@ -3,6 +3,9 @@
  */
 .header-wrapper {
     text-align: center;
+    @include media-query($on-palm) {
+      text-align: left;
+    }
 }
 
 .header-pack {
