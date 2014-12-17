@@ -55,7 +55,6 @@
 
 .menu {
   background-color: #eee;
-  display: none;
   position: absolute;
   height: 100%;
   right: 0;
@@ -102,10 +101,6 @@
     @include media-query($on-palm) {
       margin-left: -45%;
     }
-  }
-
-  .menu {
-    display: block;
   }
 
 }
