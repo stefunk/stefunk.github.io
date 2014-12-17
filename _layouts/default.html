@@ -15,6 +15,20 @@
 
     {% include footer.html %}
 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $(".menu-icon").click( function() {
+        var header = $(".site-header");
+        if(header.hasClass("menu-open")){
+          header.removeClass("menu-open");
+        } else {
+          header.addClass("menu-open");
+        }
+      });
+    });
+    </script>
+
   </body>
 
 </html>

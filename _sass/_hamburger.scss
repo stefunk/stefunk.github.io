@@ -1,0 +1,54 @@
+@mixin rotate($deg, $tx, $ty) {
+  background-color: #333;
+  width: 36px;
+  -moz-transform: rotate($deg) translateX($tx) translateY($ty); /* FF3.5+ */
+  -o-transform: rotate($deg) translateX($tx) translateY($ty); /* Opera 10.5 */
+  -webkit-transform: rotate($deg) translateX($tx) translateY($ty); /* Saf3.1+, Chrome */
+  -ms-transform: rotate($deg) translateX($tx) translateY($ty); /* IE9 */
+  transform: rotate($deg) translateX($tx) translateY($ty);
+}
+
+.menu-icon {
+  height: 22px;
+  position: absolute;
+  right: 15px;
+  top: 48px;
+  width: 32px;
+  z-index: 2;
+
+  span {
+    background-color: #888;
+    display: block;
+    height: 2px;
+    position: absolute;
+    width: 100%;
+
+    @include transition;
+  }
+  .span2 {
+    top: 11px;
+  }
+
+  span:last-child {
+    top: 22px;
+    margin-bottom: 0;
+  }
+
+  &:hover {
+    span {
+      background-color: #333;
+    }
+  }
+}
+
+.menu-open {
+  .span1 {
+    @include rotate(32deg, 4px, 10px);
+  }
+  .span2 {
+    top: 26px;
+  }
+  .span3 {
+    @include rotate(-32deg, 4px, -10px);
+  }
+}
