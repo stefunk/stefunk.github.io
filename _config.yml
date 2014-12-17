@@ -12,3 +12,11 @@ github_username:  stefunk
 
 # Build settings
 markdown: kramdown
+
+navigation:
+- text: Blog
+  url:  /
+- text: About
+  url: /about/
+- text: Contacts
+  url: /contact/

@@ -46,6 +46,7 @@
     @include rotate(32deg, 4px, 10px);
   }
   .span2 {
+    background-color: $green-color;
     top: 26px;
   }
   .span3 {

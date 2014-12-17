@@ -13,7 +13,20 @@
     </div>
   </div>
   <nav class="menu">
+    <ul>
+      <!--<li>Blog</li>
+      <li><a href="{{site.baseurl}}/about/">About</a></li>
+      <li>Contact</li>-->
+      {% for link in site.navigation %}
+      {% assign url = page.url|remove:'index.html' %}
 
+      <li>
+        <a {% if url == link.url %}class="current" {% endif %} href="{{ link.url }}">
+          {{ link.text }}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
   </nav>
 
 </header>
