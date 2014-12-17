@@ -36,6 +36,10 @@
     &:visited {
         color: $green-color;
     }
+
+    @include media-query($on-palm) {
+      font-size: 20px;
+    }
 }
 
 .site-subtitle {
@@ -59,11 +63,19 @@
   z-index: 1;
 
   @include transition;
+
+  @include media-query($on-palm) {
+    width: 45%;
+  }
 }
 
 .menu-open {
   .header-pack {
     margin-left: -20%;
+
+    @include media-query($on-palm) {
+      margin-left: -45%;
+    }
   }
 
 }
