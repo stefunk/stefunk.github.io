@@ -72,17 +72,23 @@
   ul {
     list-style-type: none;
     margin: 0;
-    padding: 10px 15px;
+    padding: 8px 15px;
   }
 
   li {
     font-size: 22px;
+    margin-bottom: 5px;
   }
 
   a {
     &,
     &:visited {
+      font-weight: 300;
       color: #666;
+    }
+
+    @include media-query($on-palm) {
+      font-weight: 400;
     }
   }
   .current {
@@ -173,7 +179,7 @@
 
     p {
       font-size: 18px;
-      line-height: 32px;
+      line-height: 28px;
     }
 }
 
@@ -235,7 +241,8 @@
         }
     }
 
-    h2,h3,h4 {
+    h1,h2,h3,h4 {
+      margin-bottom: 8px;
       margin-top: $spacing-unit;
     }
 }

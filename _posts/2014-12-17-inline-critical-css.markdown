@@ -5,7 +5,7 @@ title: Inline critical CSS to solve the "Above the fold issue"
 
 I recently reviewed the front-end code of a mid size website.  
 The goal was trying to get the best performance as possible, according to [Page Speed Insights](https://developers.google.com/speed/pagespeed/insights/).  
-I hadn't the full control of the webserver and I cannot install the [mod_pagespeed](https://developers.google.com/speed/pagespeed/module) module, so I had to fix all the suggestion from Page Speed by myself.
+I hadn't the full control of the webserver and I couldn't install the [mod_pagespeed](https://developers.google.com/speed/pagespeed/module) module, so I had to fix all the suggestion from Page Speed by myself.
 
 Fortunately the code was well written and the only problem I had to face was the **Above the Fold issue**:
 

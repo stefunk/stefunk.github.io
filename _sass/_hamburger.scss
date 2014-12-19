@@ -12,9 +12,13 @@
   height: 22px;
   position: absolute;
   right: 15px;
-  top: 48px;
+  top: 12px;
   width: 32px;
   z-index: 2;
+
+  @include media-query($on-palm) {
+    top: 50px;
+  }
 
   span {
     background-color: #888;
