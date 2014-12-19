@@ -3,15 +3,13 @@ title: Stefano Grassi
 subtitle: front end developer
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  I'm an italian web developer with a secret love for front end technologies.
-  I also like making music and eating pasta.
+  Stefano Grassi personal website and blog. Technologie, front end, javascript.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: stefunk
 github_username:  stefunk
-
+github: https://github.com/stefunk
+linkedin: http://ch.linkedin.com/pub/stefano-grassi/93/577/8aa
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 
 navigation:
 - text: Blog
