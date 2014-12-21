@@ -6,17 +6,22 @@
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
 
-    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+
+    <!-- Css management -->
     <style>
     {% include critical.css %}
     </style>
     <script type="text/javascript">
     {% include loadCss.js%}
     loadCSS("/css/main.css");
+    loadCSS("http://fonts.googleapis.com/css?family=Lato:300,400,700");
     </script>
-
+    <noscript>
+      <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+      <link href="{{ "/css/main.css" | prepend: site.baseurl }}" rel="stylesheet">
+    </noscript>
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-
+    <!-- Analytics -->
     <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
