@@ -14,6 +14,14 @@ module.exports = function(grunt) {
       },
     },
 
+    cssmin: {
+      combine: {
+        files: {
+          './_includes/critical.min.css': ['./_includes/critical.css']
+        }
+      }
+    },
+
     pagespeed: {
       options: {
         locale: 'en_GB',
@@ -37,5 +45,9 @@ module.exports = function(grunt) {
   // Load tasks
   grunt.loadNpmTasks('grunt-penthouse');
   grunt.loadNpmTasks('grunt-pagespeed');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
+
+  // Register tasks
+  grunt.registerTask('generate-criticalcss', ['penthouse', 'cssmin']);
 
 };
