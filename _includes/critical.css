@@ -1,3 +1,28 @@
+@font-face {
+  font-family: 'Lato';
+  src: url("/fonts/LatoLatin/LatoLatin-Regular.eot");
+  
+  src: local("Lato Regular"), local("Lato-Regular"), url("/fonts/LatoLatin/LatoLatin-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/LatoLatin/LatoLatin-Regular.woff") format("woff"), url("/fonts/LatoLatin/LatoLatin-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  text-rendering: optimizeLegibility; }
+@font-face {
+  font-family: 'Lato';
+  src: url("/fonts/LatoLatin/LatoLatinLight-Regular.eot");
+  
+  src: local("Lato Light"), local("Lato-Light"), url("/fonts/LatoLatin/LatoLatinLight-Regular.eot?#iefix") format("embedded-opentype"), url("/fonts/LatoLatin/LatoLatinLight-Regular.woff") format("woff"), url("/fonts/LatoLatin/LatoLatinLight-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 300;
+  text-rendering: optimizeLegibility; }
+@font-face {
+  font-family: 'Lato';
+  src: url("/fonts/LatoLatin/LatoLatin-Bold.eot");
+  
+  src: local("Lato Bold"), local("Lato-Bold"), url("/fonts/LatoLatin/LatoLatin-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/LatoLatin/LatoLatin-Bold.woff") format("woff"), url("/fonts/LatoLatin/LatoLatin-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: bold;
+  text-rendering: optimizeLegibility; }
+
 body, h2,
 p, ul{
   margin: 0;
