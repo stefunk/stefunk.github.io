@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Inline critical CSS to solve the "Above the fold issue"
+title: Inline critical CSS to solve the Above the Fold issue
 ---
 
 I recently reviewed the front-end code of a mid size website.  

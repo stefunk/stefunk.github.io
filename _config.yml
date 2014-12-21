@@ -1,10 +1,12 @@
 # Site settings
+owner: Stefano Grassi
 title: Stefano Grassi
 subtitle: front end developer
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Stefano Grassi personal website and blog. Technologie, front end, javascript.
-baseurl: "http://stefunk.github.io" # the subpath of your site, e.g. /blog/
+  Stefano Grassi personal website and blog. Technologies, front end, javascript.
+baseurl: "" # the subpath of your site, e.g. /blog/
+siteurl: "http://stefunk.github.io"
 github_username:  stefunk
 github: https://github.com/stefunk
 linkedin: http://ch.linkedin.com/pub/stefano-grassi/93/577/8aa
