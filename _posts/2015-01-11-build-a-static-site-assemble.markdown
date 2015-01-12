@@ -4,11 +4,10 @@ title: Build a static site using Grunt, Assemble and Sass
 ---
 
 {% raw %}
-I really like static site generators.
-
+I really like static site generators.  
 They're easy to use and perfect when you need to set up a bunch of html pages,
 without depending on server side languages.
-As you can see also these blog is made using Jekyll.
+As you can see also this blog is made using Jekyll.
 
 I was working on an simple site for a designer (few pages, no server side
 interactions, a lot of photos) and I decided to create a *build&serve*
