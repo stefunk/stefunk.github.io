@@ -27,7 +27,7 @@ We want to create a *simple static site generator* using third-part components, 
 ## Ingredients
 
 + [Grunt](http://gruntjs.com/) is great and I think you know it. Required for automate all the process.
-+ [Assemble](http://assemble.io/) is the core ingredients. It will generate the pages using Handlebars
++ [Assemble](http://assemble.io/) is the core ingredient. It will generate the pages using Handlebars.
 + [Sass](http://sass-lang.com/). Maybe the most famous css preprocessor with Less. We will use it as [grunt-contrib-sass](https://github.com/gruntjs/grunt-contrib-sass).
 
 
