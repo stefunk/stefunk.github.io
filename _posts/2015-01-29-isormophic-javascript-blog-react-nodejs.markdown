@@ -5,13 +5,13 @@ comments: true
 ---
 
 
-After reading a lot of articles about *isomorphic javascript* and testing the various examples I decided to create a simple isomorphic app, to better understand the development process.
+After reading a lot of articles about *isomorphic javascript* and testing the various examples, I decided to create a simple isomorphic app to better understand the development process.
 
 I've created a minimal blog with fake articles wrote using markdown syntax.
 All the code can be found [here](https://github.com/stefunk/isomorphic-blog-example).
 
 ## Iso-wat?
-I will not explain in deep what's a isomorphic app and why it can be very cool.
+I will not deeply explain what's a isomorphic app and why it can be very cool.
 In a few words:
 > JavaScript applications which run both client-side and server-side.
 
@@ -35,7 +35,7 @@ A short list of the frameworks/libraries involved in the project.
 + [React-router](https://github.com/rackt/react-router)
 
 ## React components and Flux architecture
-The app (try to) follow the React/Flux architecture. So all the code is divided into: **actions**, **api**,  **dispatcher**, **stores** and **views**.
+The app (try to) follow the React/Flux architecture. So all the code is divided into: **actions**,  **dispatcher**, **stores** and **views**.
 
 Maybe I didn't always follow the pattern so strictly, as you will see after with **stores**, but I did my best to be clear.
 
@@ -205,7 +205,7 @@ The override of the module is done in **package.json**:
 
 ## Ok, but in real world?
 
-This was a useless test, like the usual todo apps.
+This was simply test, like the usual todo apps.
 All the code can be found [here](https://github.com/stefunk/isomorphic-blog-example).
 
 Far from being perfect, I hope soon to get the possibility to try these techs on a real world app or project to face real world problems.
