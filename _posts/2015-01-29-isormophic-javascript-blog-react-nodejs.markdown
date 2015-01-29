@@ -5,7 +5,7 @@ comments: true
 ---
 
 
-After reading a lot of articles about *isomorphic javascript* and testing the various todo/example app I decided to create a simple isomorphic app, to better understand the development process.
+After reading a lot of articles about *isomorphic javascript* and testing the various examples I decided to create a simple isomorphic app, to better understand the development process.
 
 I've created a minimal blog with fake articles wrote using markdown syntax.
 All the code can be found [here](https://github.com/stefunk/isomorphic-blog-example).
