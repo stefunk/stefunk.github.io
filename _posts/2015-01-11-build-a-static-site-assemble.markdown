@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Build a static site using Grunt, Assemble and Sass
+comments: true
 ---
 
 {% raw %}
