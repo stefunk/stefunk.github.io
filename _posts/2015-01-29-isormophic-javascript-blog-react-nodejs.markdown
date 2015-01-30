@@ -16,7 +16,7 @@ In a few words:
 > JavaScript applications which run both client-side and server-side.
 
 The app is rendered in an "old-school way" by the server and from that point it begins acting like a SPA.
-If you're javascript is turned off, you can navigate the website like a static one for sure with less cool features, but at least you've got some SEO content! And not a white page.
+If javascript is turned off, you can navigate the website like a static one, for sure with less cool features, but at least you've got some SEO content! And not a white page.
 
 For understand better read this two articles:
 
