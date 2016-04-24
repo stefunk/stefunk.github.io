@@ -103,10 +103,16 @@
 
 .menu-open {
   .header-pack {
-    margin-left: -20%;
+    // margin-left: -20%;
+    -ms-transform: translateX(-20%);
+    -webkit-transform: translateX(-20%);
+    transform: translateX(-20%);
 
     @include media-query($on-palm) {
-      margin-left: -45%;
+      // margin-left: -45%;
+      -ms-transform: translateX(-45%);
+      -webkit-transform: translateX(-45%);
+      transform: translateX(-45%);
     }
   }
 

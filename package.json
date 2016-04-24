@@ -4,6 +4,7 @@
   "description": "Personal website and blog",
   "main": "index.js",
   "scripts": {
+    "critical-css": "grunt generate-criticalcss",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -11,7 +11,7 @@ github_username:  stefunk
 github: https://github.com/stefunk
 linkedin: http://ch.linkedin.com/pub/stefano-grassi/93/577/8aa
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 
 navigation:
 - text: Blog
